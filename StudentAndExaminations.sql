@@ -1,5 +1,5 @@
 -- Questions : https://leetcode.com/problems/students-and-examinations/?envType=study-plan-v2&envId=top-sql-50
-
+-- USING CROSS JOIN, unique join operation that returns the Cartesian product of two or more tables. 
 
 SELECT s.student_id, s.student_name, sub.subject_name, COUNT(e.subject_name) AS attended_exams
 FROM Students s
